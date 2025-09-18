@@ -1,0 +1,28 @@
+# Python virtual environment
+venv/
+.env/
+*.env
+
+# macOS system files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files
+*.csv
+*.tsv
+*.xlsx
+*.h5
+*.zip
+*.tar.gz
+*.pickle
+*.pkl
+
+# Logs
+*.log
