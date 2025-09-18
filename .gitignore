@@ -1,28 +1,64 @@
-# Python virtual environment
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ----------------------
+# Virtual Environments
+# ----------------------
 venv/
 .env/
-*.env
+ENV/
+.venv/
+*venv*/
 
-# macOS system files
-.DS_Store
+# Conda
+*.conda
+*.yml  # If you only want to track manually created ones, remove this line
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-
-# Jupyter Notebook checkpoints
+# ----------------------
+# Jupyter
+# ----------------------
 .ipynb_checkpoints/
 
-# Large data files
+# ----------------------
+# OS-specific
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDE/Editor
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Data files (large)
+# ----------------------
 *.csv
 *.tsv
 *.xlsx
+*.xls
 *.h5
 *.zip
 *.tar.gz
 *.pickle
 *.pkl
 
+# ----------------------
 # Logs
+# ----------------------
 *.log
+# Ignore local environment
+datatalks/
